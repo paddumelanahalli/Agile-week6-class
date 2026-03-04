@@ -1,4 +1,4 @@
-ef formal_greet_unsafe(name, title):
+def formal_greet_unsafe(name, title):
     # No guards, no cleaning, no checks.
     # It assumes the user is perfect.
     return "Greetings, " + title + " " + name
